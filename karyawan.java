@@ -32,7 +32,6 @@ public class karyawan {
             status = true;
         }
         else if (s.equals("tidak")){
-            status = false;
         }
     }
 
