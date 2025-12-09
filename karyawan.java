@@ -13,7 +13,7 @@ public class karyawan {
     public karyawan(Boolean x){
         status = x;
     }
-    
+    //input data
     public void inputdatakaryawan(){
         System.out.print("Nama: ");
         Nama = input.nextLine();
@@ -35,6 +35,7 @@ public class karyawan {
             status = false;
         }
     }
+
 
     public void tampildatakaryawan(){
         String s;
